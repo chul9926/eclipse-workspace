@@ -1,0 +1,17 @@
+package notepad;
+
+public class Notepad06 {
+
+	public static void main(String[] args) { // 증가 . 감소 연산자를 사용하여 값 연산하기.
+
+		int gamescore = 150;
+		
+		int lastscore1 = ++gamescore;
+		System.out.println(lastscore1); //151
+		
+		int lastscore2 = --gamescore;   // 151에서 --gamescore (1을 뺀 값 150이 답입니다.)
+		System.out.println(lastscore2); //150
+				
+	}
+
+}

@@ -1,0 +1,14 @@
+package notepad;
+
+public class Notepad05 {
+
+	public static void main(String[] args) { // 명시적 형 변환
+
+		double dnum = 3.14;
+		int inum2 = (int)dnum;
+		
+		System.out.println(dnum);
+		System.out.println(inum2);
+	}
+
+}

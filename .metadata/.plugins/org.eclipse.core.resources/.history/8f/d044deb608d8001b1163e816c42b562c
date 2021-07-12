@@ -1,0 +1,25 @@
+package notepad;
+
+public class Notepad08 {
+
+	String address;
+	String name;
+	int grade;
+	int ID;
+	
+	public String getname() {
+		return name;
+	
+	}
+	public static void main(String[] args) {
+		
+		Notepad08 Notepad = new Notepad08();
+		
+		Notepad.name = "황현철";
+		Notepad.address = "하탑로34번길 47 201호";
+		Notepad.grade = 1;
+		Notepad.ID = 123123;
+		
+	}
+
+}

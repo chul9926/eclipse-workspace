@@ -1,0 +1,32 @@
+package notepad;
+
+public class Notepad07 {
+
+	public static void main(String[] args) { // 논리 연산에서 모든 항이 실행되지 않는 경우 ㅡ 단락 회로 평가
+
+		int num = 5;
+		int num2 = 10;
+		int result = num & num2;
+		
+		System.out.println(result);
+		
+		int num3 = 5;
+		int num4 = 10;
+		int result2 = num3 | num4;
+		
+		System.out.println(result2);
+		
+		int num5 = 5;
+		int num6 = 10;
+		int result3 = num5 ^ num6;
+		
+		System.out.println(result3);
+		
+		int num7 = 10;
+		int result4 = ~num7;
+		
+		System.out.println(result4);
+			
+	}
+
+}

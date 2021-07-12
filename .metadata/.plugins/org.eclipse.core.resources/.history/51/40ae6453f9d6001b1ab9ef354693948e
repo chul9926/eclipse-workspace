@@ -1,0 +1,14 @@
+package notepad;
+
+public class Notepad05 {
+
+	public static void main(String[] args) { // 명시적 형 변환
+
+		int inum = 1000;
+		byte bnum = (byte)inum;
+		
+		System.out.println(inum);
+		System.out.println(bnum);
+	}
+
+}
